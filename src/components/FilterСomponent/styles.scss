@@ -1,0 +1,27 @@
+.filter {
+  margin-bottom: 20px;
+
+  &__inner {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  &__title{
+    margin-bottom: 10px;
+  }
+
+  &__input {
+    margin-right: 20px;
+  }
+
+  &__remove-btn{
+    display: inline;
+    padding: 10px;
+    height: min-content;
+    cursor: pointer;
+    background: rgb(164, 196, 255);
+    &:hover{
+      background: rgb(113, 163, 255);
+    }
+  }
+}
